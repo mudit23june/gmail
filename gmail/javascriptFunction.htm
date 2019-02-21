@@ -1,0 +1,17 @@
+<script>
+function myFunction() {
+  var x = document.getElementById("txt1").value;
+  var y = document.getElementById("txt2").value;
+  document.getElementById("txt3").value = +x + +y;
+}
+</script>
+
+<center><p>
+  Enter first number:
+  <input type="text" id="txt1" name="text1">
+  Enter second number:
+  <input type="text" id="txt2" name="text2">
+  <br><br>
+  <button onclick="myFunction()">Result</button>
+  <input type="text" id="txt3" name="text3">
+</p></center>
